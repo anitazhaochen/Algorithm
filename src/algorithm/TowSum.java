@@ -2,8 +2,7 @@ package algorithm;
 
 public class TowSum {
 
-   /**/
-    public int[] twoSum(int[] nums, int target) {
+    public int[] towSum(int[] nums, int target) {
         int[] indices = new int[nums.length];
         for (int i = 0; i < indices.length; i++) {
             indices[i] = i;
@@ -22,13 +21,14 @@ public class TowSum {
                 return new int[]{indices[l], indices[r]};
             }
         }
+        return new int[] {-1, -1};
     }
 
     public void sort(int[] nums, int[] indices) {
         for (int i = 0; i < nums.length; i++) {
             heapInsert(nums, indices, i);
         }
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = nums.length-1; i >= 0; i--) {
             swap(nums, indices, 0, i);
             heapify(nums, indices, i);
         }
@@ -74,5 +74,17 @@ public class TowSum {
         indices[i] = indices[j];
         indices[j] = tmp;
     }
+
+    public static void main(String[] args) {
+        /*
+        * 例如  arr = [7,1,11,15] , target = 18
+        * 返回 {0, 3}
+        * */
+        int[] result = new TowSum().towSum(new int[]{7,1,11,15}, 18);
+        for (int i : result) {
+            System.out.println(i);
+        }
+    }
+
 
 }
