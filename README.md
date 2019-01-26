@@ -7,3 +7,20 @@
     
     algorithm.TowSum  
     
+* 给定一个链表 list。
+
+    如果： 
+        
+     list = 1 调整后为 1
+     
+     list = 1->2 调整为 1 -> 2
+     
+     list = 1->2->3 调整为 1 -> 2 -> 3
+    
+     list = 1->2->3->4 调整为 1->3->2->4
+     
+     list = 1-2->3->4->5 调整为 1->3->2->4->5
+     
+     algorithm.LinkListApart
+     
+     
