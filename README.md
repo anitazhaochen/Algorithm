@@ -24,6 +24,16 @@
      
      algorithm.LinkListApart
  
-## 把一渴搜索二叉树，转化成有序的双向链表
+## 把一棵搜索二叉树，转化成有序的双向链表
 
     algorithm.BstToDoubleLinkedList
+    
+## 给定数组 arr 和整数 num，返回有多少个子数组满足一下情况
+    
+    max(arr[i ... j) - min(arr[i ... j] <= num
+    
+    max(arr[i ... j] 表示子数组arr[i ... j] 中的最大值，min 同理。
+    
+    算法复杂度为 O（N）的解法
+    
+    
