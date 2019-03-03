@@ -62,3 +62,16 @@ algorithm.UglyNumber
 [Nowcoder](https://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8?tpId=13&tqId=11203&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 algorithm.ArrayInRepeatNum
+
+## Semaphore 信号量（控制并发线程数）
+
+com.enjoyms.study.CyclicBarrierDemo
+
+## CyclicBarrier 等待线程
+
+com.enjoyms.study.CyclicBarrierDemo
+
+## Exchanger 线程间交换数据
+
+com.enjoyms.study.ExchangerTest
+
