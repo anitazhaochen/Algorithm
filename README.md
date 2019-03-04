@@ -1,4 +1,4 @@
-# 算法 使用 Java 实现
+# 算法 使用 Java 实现 及 Java 笔记
 
 ## 判断一个正整数是否是回文数
     
@@ -74,4 +74,13 @@ com.enjoyms.study.CyclicBarrierDemo
 ## Exchanger 线程间交换数据
 
 com.enjoyms.study.ExchangerTest
+
+## [Java 动态代理底层](https://enjoyms.com/2019/01/19/Java%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86%E6%80%BB%E7%BB%93/)
+
+com.enjoyms.proxy.Main
+
+
+## [通过函数交换两个数字的值（反射）](https://enjoyms.com/2019/03/04/Java%E5%85%B3%E4%BA%8E%E4%B8%A4%E4%B8%AA%E6%95%B0%E9%80%9A%E8%BF%87%E5%87%BD%E6%95%B0%E4%BA%A4%E6%8D%A2%E5%BC%95%E5%8F%91%E7%9A%84%E9%97%AE%E9%A2%98/)
+
+com.enjoyms.study.SwapTwoNum
 
